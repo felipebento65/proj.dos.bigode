@@ -2,11 +2,11 @@
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --verde: #ff5757;
+    --branco: #000000;
+    --botao-ativo: #ff0000;
+    --botao-inativo: rgba(243, 18, 18, 0.5);
+    --texto-fundo: rgb(255, 0, 0);
 }
 
 body {
@@ -19,7 +19,9 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;</h3>
+    <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+    <div class="contador">
     align-items: center;
     max-width: 1200px;
     width: 100%;
